@@ -21,17 +21,17 @@ Types of operators
 5) Assignment   =   +=   -=   *= /=  %=
 6) conditional/ternary operator  ?:
 
-Unary Operators: ++  -- =   +=   -=   *= /=  %=  !
-Binary operators: + - * / % >  >=  <  <=  !=  ==  &&   ||
+Unary Operators: ++  -- =   +=   -=   *= /=  %=  !  (using single variables)
+Binary operators: + - * / % >  >=  <  <=  !=  ==  &&   ||  (using two variables atleast)
 ternary operator:   ?:
 
 
-x	y	x&&y	x||y	!x	!y
+x	    y	    x&&y	 x||y	 !x	     !y
 ---------------------------------------------
 true	true	true	true	false	false
-true	false	false	true		true
-false	true	false	true	true
-false	false	false	false
+true	false	false	true	false   false
+false	true	false	true	true    true
+false	false	false	false   true    true
 
 Assignment
 ----------
