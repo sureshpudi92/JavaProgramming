@@ -5,10 +5,10 @@ public class IfandIfelseCondition {
         int person_age=15;
 
         if (person_age>=18) {
-            System.out.println("eligible for vote ");
+            System.out.println("eligible for vote");
         }else
         {
-            System.out.println("Not eligible for vote ");
+            System.out.println("Not eligible for vote");
         }
     }
 }
