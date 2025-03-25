@@ -15,7 +15,7 @@ public class ReverseANumber {
        // 1. using algorithm
          /* num % 10 extracts the last digit of num.
             rev * 10 shifts the digits of rev left by one place.
-             The extracted digit is then added to rev.*/
+             The extracted digit is then added to rev. */
         int rev=0;
         while(num>0){
             rev=rev*10+num%10;
