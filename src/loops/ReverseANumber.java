@@ -17,7 +17,7 @@ public class ReverseANumber {
             rev * 10 shifts the digits of rev left by one place.
              The extracted digit is then added to rev.*/
         int rev=0;
-        while(num!=0){
+        while(num>0){
             rev=rev*10+num%10;
             num=num/10;
 

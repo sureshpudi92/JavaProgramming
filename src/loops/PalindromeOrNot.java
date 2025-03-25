@@ -12,15 +12,17 @@ public class PalindromeOrNot {
         int original_number = num;
         int rev = 0;
 
-        while (num!=0) {
+        while (num>0) {
             rev = rev * 10 + num % 10; // Extract last digit and append
             num = num / 10;  // Remove last digit
         }
 
         if (original_number == rev) {
             System.out.println("Given number is a palindrome.");
+
         } else {
             System.out.println("Given number is not a palindrome.");
         }
+
     }
 }
