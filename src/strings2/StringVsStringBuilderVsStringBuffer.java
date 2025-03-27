@@ -1,6 +1,6 @@
 package strings2;
 
-public class StringMutableImmutable {
+public class StringVsStringBuilderVsStringBuffer {
     public static void main(String[] args) {
         //string is immutable-can't be changed
         String s="welcome";
@@ -17,5 +17,7 @@ public class StringMutableImmutable {
         StringBuilder sbr=new StringBuilder("welcome");
         sbr.append("to API");
         System.out.println(sbr);//welcome to java
+
+        // concat and append methods are same but concat is used in string and append is used in stringbuffer and stringbuilder
     }
 }
