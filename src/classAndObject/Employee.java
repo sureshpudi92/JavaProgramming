@@ -7,14 +7,16 @@ public class Employee {
     String job;
     int sal;
 
-    void display(){
+    void display()
+    {
 
         System.out.println(eid);
         System.out.println(ename);
         System.out.println(job);
         System.out.println(sal);
     }
-    public static void main(String[] args) {
+    /*public static void main(String[] args)
+    {
 
         Employee emp1=new Employee();
         emp1.eid=101;
@@ -30,5 +32,5 @@ public class Employee {
         emp2.sal=20000;
         emp2.display();
 
-    }
+    }*/
 }
