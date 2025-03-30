@@ -1,5 +1,19 @@
 package wrapperClasses;
+/*
+Wrapper classes are used to convert primitive data types into objects.
+For example, if you have an int value and you want to use it in a collection like ArrayList,
+you need to convert it into an Integer object.
+The wrapper classes in Java are:
+1. Byte
+2. Short
+3. Integer
+4. Long
+5. Float
+6. Double
+7. Character
+8. Boolean
 
+ */
 public class WrapperClasses {
     public static void main(String[] args) {
 
