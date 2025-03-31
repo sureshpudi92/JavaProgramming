@@ -1,5 +1,8 @@
 Day 20
 ------
+![Collections (1)](https://github.com/user-attachments/assets/08cb39f8-1549-42d3-9414-0d53d2f0b599)
+
+
 Collections
 --------
 collection - To represent group of elements/objects/data into single entity
