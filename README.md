@@ -1,2 +1,2 @@
-# JavaProgramatting
+# JavaProgramming
 Programming
